@@ -1,5 +1,8 @@
 package Null_Object_01;
 
-public class AbstractEmployee {
+public abstract class AbstractEmployee {
+	protected String name;
+	public abstract boolean isNull();
+	public abstract String getName();
 
 }
