@@ -43,6 +43,7 @@ public class Compose implements Components{
 	public void Screen() {
 		// TODO Auto-generated method stub
 		System.out.println("Folder: "+FolderName);
+		
 		for(Components c: folders) {
 			c.Screen();
 		}

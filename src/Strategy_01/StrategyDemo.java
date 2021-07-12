@@ -9,7 +9,8 @@ public class StrategyDemo {
 		
 		System.out.println("----------> Strategy <---------");
 		Context context = new Context(new MSixteenRifle_Strategy());
-		System.out.println(context.executeStrategy("M-16"));
+		String value = context.executeStrategy("MMMMM-16");
+		System.out.println(value);
 		System.out.println();
 		
 		Context context2 = new Context(new AKEFourySeven_Strategy());
@@ -20,7 +21,7 @@ public class StrategyDemo {
 		
 		
 //		System.out.println();
-//		String value = MyBonduks.getStrategy("AK-47");
+//		String value = MyBonduks.getStrategy("Et");
 //		System.out.println(value);
 	}
 
